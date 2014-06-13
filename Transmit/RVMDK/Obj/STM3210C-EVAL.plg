@@ -1,0 +1,461 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Keil\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\basic_examples\STM32F10x_StdPeriph_Examples\16-USART\08-IrDA\Transmit\RVMDK\Project.uvproj
+Project File Date:  06/07/2010
+
+<h2>Output:</h2>
+Build target 'STM3210C-EVAL'
+compiling stm32f10x_it.c...
+compiling main.c...
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling misc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_i2c.c...
+compiling system_stm32f10x.c...
+compiling core_cm3.c...
+compiling stm32_eval.c...
+compiling stm3210c_eval_lcd.c...
+compiling stm3210c_eval_ioe.c...
+assembling startup_stm32f10x_cl.s...
+linking...
+Program Size: Code=5344 RO-data=4928 RW-data=60 ZI-data=1044  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM3210C-EVAL'
+compiling stm32f10x_it.c...
+..\stm32f10x_it.c(143): error:  #20: identifier "ADCConvertedValue" is undefined
+compiling main.c...
+..\main.c(121): error:  #20: identifier "ADC_InitStructure" is undefined
+compiling stm32f10x_rcc.c...
+compiling stm32f10x_gpio.c...
+compiling misc.c...
+compiling stm32f10x_spi.c...
+compiling stm32f10x_usart.c...
+compiling stm32f10x_flash.c...
+compiling stm32f10x_exti.c...
+compiling stm32f10x_dma.c...
+compiling stm32f10x_i2c.c...
+compiling stm32f10x_adc.c...
+compiling system_stm32f10x.c...
+compiling stm32_eval.c...
+compiling stm3210c_eval_lcd.c...
+compiling stm3210c_eval_ioe.c...
+Target not created
+Build target 'STM3210C-EVAL'
+compiling stm32f10x_it.c...
+..\stm32f10x_it.c(143): error:  #20: identifier "ADCConvertedValue" is undefined
+compiling main.c...
+Target not created
+Build target 'STM3210C-EVAL'
+compiling stm32f10x_it.c...
+linking...
+Program Size: Code=5804 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM3210C-EVAL'
+compiling main.c...
+linking...
+Program Size: Code=6188 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling main.c...
+linking...
+Program Size: Code=6196 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Nov 14 2012 22:34:52
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.300V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling stm32f10x_it.c...
+compiling main.c...
+linking...
+Program Size: Code=6184 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Sep 20 2012 13:27:01
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.248V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling main.c...
+linking...
+Program Size: Code=6196 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling main.c...
+linking...
+Program Size: Code=6188 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling main.c...
+linking...
+Program Size: Code=6200 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling main.c...
+linking...
+Program Size: Code=6224 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.280V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling main.c...
+linking...
+Program Size: Code=6208 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Build target 'STM3210C-EVAL'
+compiling main.c...
+linking...
+Program Size: Code=6204 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.
+Build target 'STM3210C-EVAL'
+compiling main.c...
+linking...
+Program Size: Code=6204 RO-data=4928 RW-data=60 ZI-data=1060  
+".\Obj\STM3210C-EVAL.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Keil\\MDV-STM32F107-basic-examples-3.0(for_ST_FW_3.10)\\basic_examples\\STM32F10x_StdPeriph_Examples\\16-USART\\08-IrDA\\Transmit\\RVMDK\\Obj\\STM3210C-EVAL.AXF" 
+
+JLink info:
+-----------
+DLL: V4.08b, compiled Jun 30 2009 19:10:31
+Firmware: J-Link ARM V8 compiled Dec  1 2009 11:42:48
+Hardware: V8.00
+S/N : 20100214 
+Feature(s) : RDI,FlashDL,FlashBP,JFlash,GDBFull 
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+
+Target info:
+------------
+Device: STM32F107VC
+VTarget = 3.287V
+State of Pins: 
+TCK: 1, TDI: 0, TDO: 1, TMS: 0, TRES: 1, TRST: 1
+Hardware-Breakpoints: 6
+Software-Breakpoints: 2048
+Watchpoints:          4
+JTAG speed: 2000 kHz
+---
+* JLink Info: TotalIRLen = 9, IRPrint = 0x0011
+* JLink Info: Found Cortex-M3 r1p1, Little endian.
+* JLink Info: TPIU fitted.
+* JLink Info: ETM fitted.
+* JLink Info:   FPUnit: 6 code (BP) slots and 2 literal slots
+Erase Done.
+Programming Done.
+Verify OK.

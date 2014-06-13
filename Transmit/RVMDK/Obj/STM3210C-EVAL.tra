@@ -1,0 +1,36 @@
+*** Creating Trace Output File '.\Obj\STM3210C-EVAL.tra' Ok.
+### Preparing for ADS-LD.
+### Creating ADS-LD Command Line
+### List of Objects: adding '".\obj\stm32f10x_it.o"'
+### List of Objects: adding '".\obj\main.o"'
+### List of Objects: adding '".\obj\stm32f10x_rcc.o"'
+### List of Objects: adding '".\obj\stm32f10x_gpio.o"'
+### List of Objects: adding '".\obj\misc.o"'
+### List of Objects: adding '".\obj\stm32f10x_spi.o"'
+### List of Objects: adding '".\obj\stm32f10x_usart.o"'
+### List of Objects: adding '".\obj\stm32f10x_flash.o"'
+### List of Objects: adding '".\obj\stm32f10x_exti.o"'
+### List of Objects: adding '".\obj\stm32f10x_dma.o"'
+### List of Objects: adding '".\obj\stm32f10x_i2c.o"'
+### List of Objects: adding '".\obj\stm32f10x_adc.o"'
+### List of Objects: adding '".\obj\system_stm32f10x.o"'
+### List of Objects: adding '".\obj\core_cm3.o"'
+### List of Objects: adding '".\obj\stm32_eval.o"'
+### List of Objects: adding '".\obj\stm3210c_eval_lcd.o"'
+### List of Objects: adding '".\obj\stm3210c_eval_ioe.o"'
+### List of Objects: adding '".\obj\startup_stm32f10x_cl.o"'
+### ADS-LD Command completed:
+--device DARMSTM ".\obj\stm32f10x_it.o" ".\obj\main.o" ".\obj\stm32f10x_rcc.o" ".\obj\stm32f10x_gpio.o" ".\obj\misc.o" ".\obj\stm32f10x_spi.o" ".\obj\stm32f10x_usart.o" ".\obj\stm32f10x_flash.o" ".\obj\stm32f10x_exti.o" ".\obj\stm32f10x_dma.o" ".\obj\stm32f10x_i2c.o" ".\obj\stm32f10x_adc.o" ".\obj\system_stm32f10x.o" ".\obj\core_cm3.o" ".\obj\stm32_eval.o" ".\obj\stm3210c_eval_lcd.o" ".\obj\stm3210c_eval_ioe.o" ".\obj\startup_stm32f10x_cl.o" --library_type=microlib --strict --scatter ".\Obj\STM3210C-EVAL.sct" 
+--autoat --summary_stderr --info summarysizes --map --xref --callgraph --symbols 
+--info sizes --info totals --info unused --info veneers 
+ --list ".\List\STM3210C-EVAL.map" -o ".\Obj\STM3210C-EVAL.axf"### Preparing Environment (PrepEnvAds)
+### ADS-LD Output File: '.\Obj\STM3210C-EVAL.axf'
+### ADS-LD Command File: '.\Obj\STM3210C-EVAL.lnp'
+### Checking for dirty Components...
+### Creating CmdFile '.\Obj\STM3210C-EVAL.lnp', Handle=0x00000290
+### Writing '.lnp' file
+### ADS-LD Command file '.\Obj\STM3210C-EVAL.lnp' is ready.
+### ADS-LD: About to start ADS-LD Thread.
+### ADS-LD: executed with 0 errors
+### Updating obj list
+### LDADS_file() completed.
